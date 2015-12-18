@@ -1,0 +1,165 @@
+
+/**
+ * A simple sample carousel skin.
+ *
+ * This skin includes a sample arrows.svg file that may be edited with the free
+ * illustration application InkScape (http://inkscape.org).
+ *
+ * CSS and icons by Nathan Haug.
+ */
+
+.jcarousel-skin-aphrodite {
+  text-align: left;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-container-horizontal {
+  width: 90%;
+  height: 265px;
+  padding: 0px 5%;
+  overflow:hidden;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-container-vertical {
+  width: 102px;
+  height: 440px;
+  padding: 40px 20px;
+  margin: auto;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-clip-horizontal {
+  width: 100%;
+  overflow: hidden;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-clip-vertical {
+  height: 440px;
+  overflow: hidden;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-item {
+  padding: 0;
+  width: 33%;
+  min-height: 100px;
+  list-style: none;
+  background: #fff none;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-item-horizontal {
+  margin: 0 4px;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-item-vertical {
+  margin: 4px 0;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-item-placeholder {
+  background: #fff url(throbber.gif) no-repeat center center;
+  color: #000;
+}
+
+/**
+ * Buttons
+ */
+.jcarousel-skin-aphrodite .jcarousel-next{
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(arrow_next02.png);
+  background-repeat:no-repeat;
+  background-size:60% 60%;
+  background-position:50% 50%;
+}
+.jcarousel-skin-aphrodite .jcarousel-prev {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(arror_pre02.png);
+  background-repeat:no-repeat;
+  background-size:60% 60%;
+  background-position:50% 50%;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-next-disabled,
+.jcarousel-skin-aphrodite .jcarousel-prev-disabled {
+  display: none;
+}
+
+/**
+ * Horizontal Buttons
+ */
+.jcarousel-skin-aphrodite .jcarousel-prev-horizontal {
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  /**background-position: 0 0;**/
+}
+.jcarousel-skin-aphrodite .jcarousel-prev-horizontal:hover {
+  /**background-position: -32px 0;**/
+  background-image: url(arror_pre01.png);
+}
+.jcarousel-skin-aphrodite .jcarousel-prev-horizontal:active {
+  /**background-position: -64px 0;**/
+  background-image: url(arror_pre01.png);
+}
+
+.jcarousel-skin-aphrodite .jcarousel-next-horizontal {
+  position: absolute;
+  top: 55px;
+  right: 10px;
+  /**background-position: 0 -32px;**/
+}
+.jcarousel-skin-aphrodite .jcarousel-next-horizontal:hover {
+  /**background-position: -32px -32px;**/
+  background-image: url(arrow_next01.png);
+}
+.jcarousel-skin-aphrodite .jcarousel-next-horizontal:active {
+  /**background-position: -64px -32px;**/
+   background-image: url(arrow_next01.png);
+}
+
+/**
+ * Vertical Buttons
+ */
+.jcarousel-skin-aphrodite .jcarousel-prev-vertical {
+  position: absolute;
+  top: 10px;
+  left: 55px;
+  background-position: 0 -64px;
+}
+.jcarousel-skin-aphrodite .jcarousel-prev-vertical:hover {
+  background-position: -32px -64px;
+}
+.jcarousel-skin-aphrodite .jcarousel-prev-vertical:active {
+  background-position: -64px -64px;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-next-vertical {
+  position: absolute;
+  bottom: 10px;
+  left: 55px;
+  background-position: 0 -96px;
+}
+.jcarousel-skin-aphrodite .jcarousel-next-vertical:hover {
+  background-position: -32px -96px;
+}
+.jcarousel-skin-aphrodite .jcarousel-next-vertical:active {
+  background-position: -64px -96px;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-navigation {
+  margin: 0;
+  padding: 0;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-navigation li {
+  display: inline;
+  margin: 0 2px 0 0;
+  padding: 0;
+  background: none;
+}
+
+.jcarousel-skin-aphrodite .jcarousel-navigation li.active a {
+  font-weight: bold;
+  text-decoration: none;
+}
+

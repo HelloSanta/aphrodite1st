@@ -1,0 +1,229 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+@import "base";
+
+
+.block { /* Block wrapper */
+  margin-bottom: 1.5em;
+
+  &.first { /* The first block in the region */
+  }
+
+  &.last { /* The last block in the region */
+  }
+
+  &.odd { /* Zebra striping for each block in the region */
+  }
+
+  &.even { /* Zebra striping for each block in the region */
+  }
+
+  h2.block-title { /* Block title */
+  }
+}
+
+
+#block-aggregator-category-1 { /* Block for the latest news items in the first category */
+}
+
+#block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
+}
+
+#block-block-1 { /* First block created with "Add block" link */
+}
+
+#block-blog-recent { /* "Recent blog posts" block */
+}
+
+#block-book-navigation { /* "Book navigation" block for the current book's table of contents */
+}
+
+#block-comment-recent { /* "Recent comments" block */
+}
+
+#block-forum-active { /* "Active forum topics" block */
+}
+
+#block-forum-new { /* "New forum topics" block */
+}
+
+#block-locale-language { /* Language switcher block */
+}
+
+#block-menu-menu-NAME { /* Custom menu block */
+}
+
+#block-node-recent { /* "Recent content" block */
+}
+
+#block-node-syndicate { /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+#block-poll-recent { /* "Most recent poll" block */
+}
+
+#block-profile-author-information { /* "Author information" block for the profile of the page's author */
+}
+
+#block-search-form { /* "Search form" block */
+}
+
+#block-shortcut-shortcuts { /* "Shortcuts" block */
+}
+
+#block-statistics-popular { /* "Popular content" block */
+}
+
+#block-system-main-menu { /* "Main menu" block */
+	margin-bottom: 10px;
+	ul.menu{
+		margin:0px;
+		padding:0px;
+		text-align:right;
+		li.leaf{
+			display:inline-block;
+			list-style-image:none;
+			list-style-type:none;
+			padding:0% 3px;
+			border-right:1px solid #000;
+			font-size:14px;
+			line-height:24px;
+			a{
+				display:block;
+				width:100%;
+				color:#000000;
+				text-decoration:none;
+				&:hover{
+					background-color:#fee6e4;
+					border-radius:10px;
+					-moz-border-radius:10px;	
+					-webkit-border-radius:10px;	
+				}
+			}
+
+		}
+		li.first{
+			border-left:1px solid #000;
+		}
+		li.menu-475,li.menu-2667{
+			padding-left:30px;
+			background-image:url(../images/health.png);
+			background-repeat:no-repeat;
+			background-position:4px 50%;
+			background-size:auto 24px;
+		}
+		li.menu-479{
+			padding-left:40px;
+			background-image:url(../images/oversea.png);
+			background-repeat:no-repeat;
+			background-position:4px 50%;
+			background-size:auto 24px;
+		}
+	}
+}
+
+#block-system-management { /* "Management" block for Drupal management menu */
+}
+
+#block-system-navigation { /* "Navigation" block for Drupal navigation menu */
+}
+
+#block-system-user-menu { /* "User menu" block for Drupal user menu */
+	margin-bottom:15px;
+	ul.menu{
+		margin:0px;
+		text-align: right;
+		padding:0px;
+		width:100%;
+		li.leaf{
+			display:inline-block;
+			list-style-image:none;
+			list-style-type:none;
+			width:20%;
+			border-right:1px solid #6d344e;
+			text-align:center;
+			a{
+				text-decoration:none;
+				color:#6d344e;
+				
+			}
+		}
+		li.first{
+			width:23%;
+			padding-left:1%;
+			padding-right:2%;
+			text-align:right;
+			background-image:url(../images/man_icon.png);
+			background-repeat:no-repeat;
+			background-position:0% 50%;
+			
+		}
+		
+	}
+}
+
+#block-system-help { /* "System help" block */
+}
+
+#block-system-main { /* "Main page content" block */
+	
+}
+
+#block-system-powered-by { /* "Powered by Drupal" block */
+}
+
+#block-user-login { /* "User login form" block */
+}
+
+#block-user-new { /* "Who's new" block for a list of the newest users */
+}
+
+#block-user-online { /* "Who's online" block for a list of the online users */
+}
+#block-menu-menu-third-aphrodite-link
+{
+	margin-bottom:15px;
+	ul.menu{
+		margin:0px;
+		text-align: right;
+		li.leaf{
+			float:left;
+			list-style-image:none;
+			list-style-type:none;
+			font-size:16px;
+			text-align:center;
+			width:24%;
+			margin-left:1%;
+			line-height:36px;
+			a{
+				text-decoration:none;
+				color:#fff;
+				font-weight:bold;
+				
+			}
+		}
+		.menu-538{
+			background-color:#3B5998;
+		}
+		.menu-539{
+			background-image:url(../images/Blog.jpg);
+			background-repeat:repeat;
+		}
+		.menu-540{
+			background-image:url(../images/favorite.jpg);
+			background-repeat:repeat;
+		}
+		.menu-541{
+			background-image:url(../images/login_logout.jpg);
+			background-repeat:repeat;
+		}
+		.menu-545{
+			background-image:url(../images/login_logout.jpg);
+			background-repeat:repeat;
+		}
+		
+	}
+}
